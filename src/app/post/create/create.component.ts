@@ -27,6 +27,13 @@ export class CreateComponent {
       }
       get f(){
         return this.form.controls;
-      }    
+      }
+      submit() {
+        console.log(this.form.value);
+        this.postService.create(this.form.value).subscribe((res) => {
+          console.log('Post created successfully!');
+          this.router.navigate(['/post/index']);
+        });
+      }
     }
 
