@@ -13,11 +13,7 @@ export class PostService {
   
   private apiURL = "https://jsonplaceholder.typicode.com";
     
-  /*------------------------------------------
-  --------------------------------------------
-  Http Header Options
-  --------------------------------------------
-  --------------------------------------------*/
+
   httpOptions = {
     headers: new HttpHeaders({
       'Content-Type': 'application/json'
