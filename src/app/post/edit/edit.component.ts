@@ -11,7 +11,7 @@ import { ReactiveFormsModule, FormGroup, FormControl, Validators } from '@angula
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './edit.component.html',
-  styleUrl: './edit.component.css'
+  styleUrl: './edit.component.scss'
 })
 export class EditComponent {
   
